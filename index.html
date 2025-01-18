@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>publicly
+</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.slidepanel.setup.js"></script>
+<!-- Homepage Only Scripts -->
+<script type="text/javascript" src="layout/scripts/jquery.cycle.min.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('#featured_slide').after('<div id="fsn"><ul id="fs_pagination">').cycle({
+        timeout: 5000,
+        fx: 'fade',
+        pager: '#fs_pagination',
+        pause: 1,
+        pauseOnPagerHover: 0
+    });
+});
+</script>
+<!-- End Homepage Only Scripts -->
+</head>
+<body>
+
+<!-- ####################################################################################################### -->
+<div class="wrapper col1">
+  <div id="header">
+    <div id="logo">
+        <h2><a href="index.html">Publicly Verifiable Shared Dynamic Electronic
+Health Record Databases 
+
+ </a><span>with Functional
+Commitment Supporting Privacy-Preserving
+Integrity Auditing</span><h2>
+      <p></p>
+    </div>
+    <div id="topnav">
+      <ul>
+        <li  class="active"><a href="index.html">Home</a></li>
+        <li><a href="Client.jsp">Client</a></li>
+        <li><a href="GMember.jsp">Group Manager</a></li>
+        <li><a href="CloudServer.jsp">Cloud</a></li>
+        <li><a href="TPA.jsp">TPA</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="featured_slide">
+   
+    <div class="featured_box"><a href="#"><img src="images/Capture.PNG" alt="" /></a>
+      <div class="floater">
+        <h2></h2>
+        <p align="justify">
+        In our dynamic group member scenario, any group
+user can upload own database to the cloud and share them
+with other group members. And a trusted group manager
+is responsible for joining or revoking on a client  
+            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+      </div>
+    </div>
+   
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col3">
+  <div id="homecontent">
+    <div class="fl_left">
+      <div class="column2">
+
+      </div>
+      <div class="column2">
+        <h2>Abstract</h2>
+        <p align="justify" style="text-decoration: blink; font-size: 15px;">
+      Electronic health record (EHR) is a system that collects patients' digital health information and shares it with other
+healthcare providers in the cloud. Since EHR contains a large amount of significant and sensitive information about patients, it
+is required that the system ensures response correctness and storage integrity. Meanwhile, with the rise of IoT, more lowperformance terminals are deployed for receiving and uploading patient data to the server, which increases the computational
+and communication burden of the EHR systems. The verifiable database (VDB), where a user outsources his large database to
+a cloud server and makes queries once he needs certain data, is proposed as an efficient updatable cloud storage model for
+resource-constrained users. To improve efficiency, most existing VDB schemes utilize proof reuse and proof updating technique
+to prove correctness of the query results. However, it ignores the "real-time" of proof generation, which results in an overhead
+that the user has to perform extra process (e.g. auditing schemes) to check storage integrity. In this paper, we propose a
+publicly verifiable shared updatable EHR database scheme that supports privacy-preserving and batch integrity checking with
+minimum user communication cost. We modify the existing functional commitment (FC) scheme for the VDB design and
+construct a concrete FC under the computational l -BDHE assumption. In addition, the use of an efficient verifier-local
+revocation group signature scheme makes our scheme support dynamic group member operations, and gives nice features,
+such as traceability and non-frameability
+        
+        </p>
+       
+      </div>
+    </div>
+    <div class="fl_right">
+      
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4">
+  <div id="footer">
+   
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col5">
+  
+</div>
+</body>
+</html>
